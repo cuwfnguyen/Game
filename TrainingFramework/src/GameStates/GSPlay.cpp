@@ -41,7 +41,7 @@ void GSPlay::Init()
 	m_score = std::make_shared< Text>(shader1, font, "score: 10", TEXT_COLOR::RED, 1.0);
 	m_score->Set2DPosition(Vector2(5, 25));
 
-	//play button
+	//back button
 	texture = ResourceManagers::GetInstance()->GetTexture("button_back");
 	button1 = std::make_shared<GameButton>(model, shader, texture);
 	button1->Set2DPosition(screenWidth / 2, 600);
