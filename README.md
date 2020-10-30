@@ -1,2 +1,2 @@
 # Game
-Chi bao gom file .cpp update tu template
+BTVN > Update file Gameplay.cpp
